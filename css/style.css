@@ -1,0 +1,139 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+}
+nav{
+   background-color: rgb(47, 42, 42);
+}
+nav ul {
+   display: flex;
+}
+nav ul li:hover{
+   background-color: dimgrey;
+}
+nav ul li{
+   list-style: none;
+   margin-left: 30px;
+   padding: 10px;
+}
+nav ul li a{
+   color: white;
+   text-decoration: none;
+}
+.header{
+   background-color: teal;
+   padding: 60px;
+   color: white;
+   text-align: center;
+}
+h2{
+   font-size: 20px;
+   font-weight: normal;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+}
+span{
+   font-size: small;
+   
+}
+.container{
+   display: flex;
+   margin: 10px;
+}
+.left{
+   width: 25%;
+}
+.main-left ul{
+   margin-top: 10px;
+   background-color: gray;
+}
+
+
+
+.main-left ul{
+   list-style: none;
+   padding: 20px;
+}
+p{
+   margin-top: 10px;
+}
+.right{
+   width: 80%;
+   margin-left: 30px;
+}
+
+form{
+   background-color: gray;
+   padding: 20px;
+   margin-top: 10px;
+}
+h1{
+   text-transform: uppercase;
+   font-weight: normal;
+}
+#fn,#ln{
+   width: 48%;
+   padding: 6px;
+   margin-top: 20px;
+}
+#email{
+   padding: 6px;
+   width: 98.1%;
+   margin-top: 20px;
+}
+#s,#r{
+   width: 48%;
+   padding: 7px;
+   border-radius: 50px;
+}
+#web,#m{
+   margin-top: 10px;
+}
+#s{
+   background-color: rgb(6, 172, 172);
+}
+#r{
+   background-color: rgb(88, 87, 87);
+}
+h3 {
+   text-transform: uppercase;
+   margin-top: 10px;
+   font-weight: normal;
+}
+p{
+   margin-top: 10px;
+}
+.tb{
+   padding: 20px;
+   background-color: gray;
+   margin-top: 10px;
+}
+table{
+   width: 100%;
+   border-collapse: collapse;
+}
+thead{
+   background-color: rgb(0, 119, 255);
+   text-align: left;
+   color: white;
+}
+th{
+   padding: 10px;
+}
+td{
+   padding: 6px;
+   border: 1px groove;
+}
+tr:nth-child(even){
+   background-color: white;
+}
+footer{
+   background-color: gray;
+   height: 10vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+}
+
